@@ -1,0 +1,111 @@
+:root{
+    --color-main:rgb(0, 41, 83);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin:auto;
+}
+.login{
+    width: 400px;
+    margin:40px auto;
+    padding:30px;
+    box-sizing: border-box;
+    border:1px solid var(--color-main);
+}
+.loginInput{
+    padding:10px;
+    width:100%;
+}
+.submit-button{
+    padding:8px 15px;
+    color:rgb(255, 255, 255);
+    background:rgb(76, 177, 220);
+    border:none;
+}
+.section{
+    width:100%;
+    background:rgb(255, 255, 255);
+    display:flex;
+    flex-wrap: wrap;
+}
+.top-area{
+    min-height: 100px;
+    background:rgb(20, 138, 149);
+    width:100%;
+}
+.top-area h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    padding-top:10px;
+}
+.left-area{
+    min-height: 500px;
+    background:rgb(236, 199, 175);
+    width:20%;
+    display:flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+.left-area a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 20px;
+    width:100%;
+    margin:0;
+    padding:10px 20px;
+    border-bottom: 0.5px solid rgba(179, 179, 179, 0.16);
+    background:rgb(5, 70, 70);
+}
+.left-area a:hover{
+    background:rgb(0, 36, 43);
+}
+.right-area{
+    min-height: 500px;
+    background:rgb(210, 231, 228);
+    width:80%;
+    padding:20px;
+}
+.right-area h2{
+    margin:0px;
+    text-transform: uppercase;
+    color:var(--color-main);
+    margin-bottom:20px;
+}
+.input-title{
+    padding:5px 10px;
+    border:none;
+    width:100%;
+}
+.slide-img{
+    width:100%;
+}
+.submit-bt{
+    padding:5px 20px;
+    border:none;
+    background:rgb(46, 139, 186);
+    color:white;
+}
+.ql-slide{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.box{
+    width:48%;
+    margin:0px 1% 20px 1%;
+    box-shadow:0px 0px 10px 0px rgb(180, 180, 180);
+    background:white;
+    padding:20px;
+    box-sizing: border-box;
+}
+.add{    
+    padding:7px 20px;
+    border:none;
+    background:rgb(46, 139, 186);
+    color:white;
+    margin-left:10px;
+}

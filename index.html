@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiChain</title>
+    <link rel="shortcut icon" href="image/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/clickToLink.js"></script>    
+    <script src="js/showMenu.js"></script>
+    <script>
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1500,
+            wrap: false
+        })
+    </script>    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/sichainok.png">
+                </a>
+            </div>
+            <div class="categories">
+                <!-- <div>
+                    <form method="post">
+                        <p class="quick-contact">
+                            <input class="input-phone" type="phone" name="phone" placeholder="SĐT của bạn">
+                            <input type="submit" value="Liên hệ"> 
+                        </p>
+                        
+                    </form>
+                </div> -->
+                <img class="menu-icon" src="image/icon/menu.png">
+                <ul>
+                    <a href="#home"><li>Trang chủ</li></a>
+                    <a href="#training"><li>Đào tạo</li></a>
+                    <a href="#product"><li>Sản phẩm</li></a>
+                    <a href="#sumenh"><li>Sứ mệnh</li></a>
+                    <a href="#tamnhin"><li>Tầm nhìn</li></a>
+                    <a href="#team"><li>Đội ngũ</li></a>
+                    <a href="#sharing"><li>Chia sẻ</li></a>
+                    <a href="#about"><li>Giới thiệu</li></a>
+                    <a href="#contact"><li>Liên hệ</li></a>
+                    <a href="#search"><li class="box-search">Tìm kiếm</li></a>                    
+                </ul>
+                <div class="search" id="search">
+                    <form action="#" method="post">
+                        <input class="search-input" type="text" name="search" placeholder="Tìm Kiếm">
+                        <input class="search-submit" type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/H2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Nơi nào cần bảo toàn dữ liệu, ở đó cần có Blockchain</h5>
+                <p>Blockchain - Vượt ngoài ứng dụng tạo các đồng tiền số, blockchain 
+                    là công nghệ lưu trữ và bảo mật dữ liệu hàng đầu có nhiều ứng dụng trong quản trị doanh nghiệp, 
+                    từ sản xuất, chuỗi cung ứng, kế toán, nhân lực … cho đến hệ thống ERP toàn diện.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/hinh2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Nơi nào cần tăng hiệu quả công việc, ở đó cần có AI</h5>
+                <p>AI - Trí tuệ nhân tạo là công nghệ hiện đại,
+                    có khả năng tổng hợp, phân tích dữ liệu, ngữ cảnh giúp người quản lý rút ngắn thời gian làm việc,
+                    tăng độ chính xác trong các quyết định quản lý cần phân tích dữ liệu</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/H3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>SiChain</h5>
+                <p>SiChain kiến tạo sự kết nối giữa BlockChain và AI để giúp doanh nghiệp 
+                    bảo vệ và khai thác giá trị của dữ liệu tích luỹ trong suốt quá trình phát triển doanh nghiệp 
+                    </p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="content"><!-- Phần Home-->
+        <div class="home">
+            <div class="home-box">
+                <h2 class="title">Nơi nào cần bảo toàn dữ liệu, ở đó cần có Blockchain</h2>
+                <img src="image/H4.jpg">
+                <p class="description"> Blockchain - Vượt ngoài ứng dụng tạo các đồng tiền số, blockchain 
+                    là công nghệ lưu trữ và bảo mật dữ liệu hàng đầu có nhiều ứng dụng trong quản trị doanh nghiệp, 
+                    từ sản xuất, chuỗi cung ứng, kế toán, nhân lực … cho đến hệ thống ERP toàn diện. 
+                </p>
+            </div>
+            <div class="home-box">
+                <h2 class="title">Nơi nào cần tăng hiệu quả công việc, ở đó cần có AI</h2>
+                <img src="image/H2.jpg">
+                <p class="description"> AI - Trí tuệ nhân tạo là công nghệ hiện đại,
+                        có khả năng tổng hợp, phân tích dữ liệu, ngữ cảnh giúp người quản lý rút ngắn thời gian làm việc,
+                        tăng độ chính xác trong các quyết định quản lý cần phân tích dữ liệu 
+                </p>
+            </div>
+            <div class="home-box">
+                <h2 class="title">SiChain</h2>
+                <img src="image/H3.jpg">
+                <p class="description"> SiChain kiến tạo sự kết nối giữa BlockChain và AI để giúp doanh nghiệp 
+                    bảo vệ và khai thác giá trị của dữ liệu tích luỹ trong suốt quá trình phát triển doanh nghiệp 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="trang-tri"> 
+        <div id="particles-js"></div>
+    </div>
+    <div class="parent">
+        <div class="section" id="training"><!-- Phần Training-->
+            <div class="section-box left box-hidden">
+                <h1 class="title-page title-center">Chương trình đào tạo</h1>
+                <img src="image/5187419.jpg"> 
+                <p class="ChuongTrinhDaoTao">
+                    -	Đào tạo nhận thức ứng dụng Blockchain & AI <br>
+                    -	Đào tạo riêng cho doanh nghiệp<br>
+                    -	Đào tạo tập trung
+                </p>
+                <a href="training.html">>> Đăng ký khóa học >></a>
+            </div>
+            <div class="section-box right box-hidden" id="product">
+                <h1 class="title-page title-center">Sản phẩm</h1>
+                <img src="image/website-6700615.png"> 
+                <p class="ChuongTrinhDaoTao">
+                    -	Website 3.0 <br>
+                    -	Phần mềm quản lý quan hệ khách hàng (CRM)<br>
+                    -	Chuỗi cung ứng (Supply chain)
+                </p>  
+                <a href="#contact">>> Liên hệ ngay >></a>             
+            </div>
+        </div>
+    </div>
+    <div class="parent on-top" id="sumenh">       
+        <div class="section"><!-- Phần sứ mệnh-->
+            <div class="section-box left box-hidden">
+                <h1 class="title-page title-center title-bg">Sứ mệnh</h1>
+                <p class="detail">
+                    Phổ biến kiến thức và ứng dụng công nghệ blockchain, công nghệ AI đến cộng đồng quản lý doanh nghiệp.  
+                </p>
+                <img src="image/sumenh1.jpg"> 
+            </div>
+            <div class="section-box left box-hidden"  id="tamnhin">                
+                <h1 class="title-page title-center title-bg">Tầm nhìn</h1>
+                <p class="detail">
+                    Trở thành nhà đào tạo nhân lực và cung cấp giải 
+                    pháp quản lý doanh nghiệp dựa trên công nghệ blockchain, công nghệ AI tiên phong.  
+                </p>
+                <img src="image/tamnhin.jpg">
+            </div>
+        </div>       
+    </div> 
+        <!-- scripts -->
+        <script src="js/particles.js"></script>
+        <script src="js/js-partial/app.js"></script>
+        <script src="js/js-partial/lib/stats.js"></script>
+        <script src="js/js-partial/config.js"></script>
+    <!-- <div class="line-border box-hidden"></div> -->
+    <div class="parent bg-team box-hidden" id="team"><!-- Phần team-->
+        <h1 class="our-team">Đội ngũ của Sichain</h1>
+        <div class="section section-team">
+            
+            <div class="member">
+                <img src="image/men1.jpg">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                    <h6>Trần Thế Vinh</h6>
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Thông tin thành viên</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div> 
+                            <div class="team-info">
+                                <div class="left-info">
+                                    <img src="image/men1.jpg">
+                                </div>
+                                <div class="right-info">
+                                    <div class="info-detail">
+                                        <h2>Họ Tên: Trần Thế Vinh</h2>                                    
+                                        <h2>Ngày sinh: 22/12/1985</h2>
+                                        <h2>Trình độ chuyên môn: Tiến Sĩ</h2>
+                                        <h2>Chức vụ hiện tại: Chủ tịch</h2>
+                                        <h2>Kinh nghiệm: Cố vấn cao cấp về khởi nghiệp, giange viên ĐH Bách khoa</h2>
+                                        <h2>Email: <a href="mailto:nguyenvana@sichain.vn">nguyenvana@sichain.vn</a></h2>
+                                    </div>
+                                </div>     
+                            </div>
+                                            
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="member">
+                <img src="image/men1.jpg">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">
+                    <h6>Đào Trọng Tuân</h6>
+                </button>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Thông tin thành viên</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div> 
+                            <div class="team-info">
+                                <div class="left-info">
+                                    <img src="image/men1.jpg">
+                                </div>
+                                <div class="right-info">
+                                    <div class="info-detail">
+                                        <h2>Họ Tên: Đào Trọng Tuân</h2>                                    
+                                        <h2>Ngày sinh: 22/12/1985</h2>
+                                        <h2>Trình độ chuyên môn: Tiến Sĩ</h2>
+                                        <h2>Chức vụ hiện tại: Chủ tịch</h2>
+                                        <h2>Kinh nghiệm: Cố vấn cao cấp về khởi nghiệp, giange viên ĐH Bách khoa</h2>
+                                        <h2>Email: <a href="mailto:nguyenvana@sichain.vn">nguyenvana@sichain.vn</a></h2>
+                                    </div>
+                                </div>     
+                            </div>
+                                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="member">
+                <img src="image/men.jpg">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@mdo">
+                    <h6>Nguyễn Thị Khánh Tiên</h6>
+                </button>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Thông tin thành viên</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div> 
+                            <div class="team-info">
+                                <div class="left-info">
+                                    <img src="image/men.jpg">
+                                </div>
+                                <div class="right-info">
+                                    <div class="info-detail">
+                                        <h2>Họ Tên: Nguyễn Thị Khánh Tiên</h2>                                    
+                                        <h2>Ngày sinh: 22/12/1985</h2>
+                                        <h2>Trình độ chuyên môn: Tiến Sĩ</h2>
+                                        <h2>Chức vụ hiện tại: Chủ tịch</h2>
+                                        <h2>Kinh nghiệm: Cố vấn cao cấp về khởi nghiệp, giange viên ĐH Bách khoa</h2>
+                                        <h2>Email: <a href="mailto:nguyenvana@sichain.vn">nguyenvana@sichain.vn</a></h2>
+                                    </div>
+                                </div>     
+                            </div>
+                                            
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="member">
+                <img src="image/men1.jpg">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3" data-bs-whatever="@mdo">
+                    <h6>Lê Minh Thanh</h6>
+                </button>
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Thông tin thành viên</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div> 
+                            <div class="team-info">
+                                <div class="left-info">
+                                    <img src="image/men1.jpg">
+                                </div>
+                                <div class="right-info">
+                                    <div class="info-detail">
+                                        <h2>Họ Tên: Lê Minh Thanh</h2>                                    
+                                        <h2>Ngày sinh: 22/12/1985</h2>
+                                        <h2>Trình độ chuyên môn: Tiến Sĩ</h2>
+                                        <h2>Chức vụ hiện tại: Chủ tịch</h2>
+                                        <h2>Kinh nghiệm: Cố vấn cao cấp về khởi nghiệp, giange viên ĐH Bách khoa</h2>
+                                        <h2>Email: <a href="mailto:nguyenvana@sichain.vn">nguyenvana@sichain.vn</a></h2>
+                                    </div>
+                                </div>     
+                            </div>
+                                            
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            
+        </div>
+        
+    </div>
+    <div class="parent bg-color box-hidden">
+        <div class="section" id="sharing"><!-- Phần Sharing-->
+            <h1 class="title-page title-center title-sharing"><a href="sharing.html">Blockchain và trí tuệ nhân tạo</a></h1> 
+            
+            <div class="box-sharing box-hidden"> 
+                <a href="sharing.html">
+                    <img src="image/monitor-g86e4f9ba3_1920.jpg">
+                    <h5>Tại sao chuỗi khối lại quan trọng?</h5>
+                    <p>Công nghệ chuỗi khối là một cơ chế cơ sở dữ liệu tiên tiến cho phép chia sẻ thông tin minh bạch trong một mạng lưới kinh doanh.</p>
+                </a>
+            </div> 
+            <div class="box-sharing box-hidden"> 
+                <a href="sharing.html">
+                    <img src="image/mobile-phone-1917737_640.jpg">
+                    <h5>Công nghệ đang thay đổi từng ngày</h5>
+                    <p>Các hãng smartphone không ngừng ra những mẫu máy mới chiều lòng khách hàng</p>
+                </a>
+            </div>
+            <div class="box-sharing box-hidden"> 
+                <a href="sharing.html">
+                    <img src="image/artificial-intelligence-g439913e60_1920.jpg">
+                    <h5>Trí tuệ nhân tạo</h5>
+                    <p>Sự phát triển nhanh chóng và mạnh mẽ của công nghệ thông tin</p>
+                </a>
+            </div>
+            <div class="box-sharing box-hidden"> 
+                <a href="sharing.html">
+                    <img src="image/web-g74b48e807_1920.jpg">
+                    <h5>Công nghệ web thế hệ tiếp theo</h5>
+                    <p>Sự phát triển nhanh chóng và mạnh mẽ của công nghệ thông tin</p>
+                </a>
+            </div>
+            <p style="padding-top: 20px; width:100%;text-align:right;">
+                <a href="sharing.html">>> Xem thêm >></a>
+            </p>       
+        </div>
+       
+    </div>
+    <div class="parent about">        
+        <div class="section" id="about"><!-- Phần About-->
+            <div class="section-box left box-hidden">
+                <img src="image/sichainok.png" alt="no img">
+            </div>
+            <div class="section-box right box-hidden">
+                <h1 class="title-page box-hidden">Giới thiệu</h1>
+                <p>
+                    SiChain là công ty nghiên cứu và cung cấp dịch vụ/giải pháp công nghệ ứng dụng 
+                    BlockChain (chuỗi khối) và AI (trí tuệ nhân tạo)
+                    vào quản lý nhằm tăng cường khả năng bảo mật, an toàn dữ liệu và tự động hoá điều hành doanh nghiệp. 
+                </p>
+            </div>
+        </div>        
+    </div>
+    <div class="parent box-hidden" id="contact"><!-- Phần contact-->
+        <h1 class="title-page title-center contact-us">Liên hệ</h1>
+        <div class="section">
+            
+            <div class="section-box left box-hidden">
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingInput">Tên của bạn</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email của bạn</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">SĐT của bạn</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Nội dung liên hệ</label>
+                    </div>
+                    <br>
+                    <p>
+                        <input class="button-send" type="submit" value="Nhấp gửi"> 
+                    </p>
+                </form>
+               
+            </div>
+            <div class="section-box right box-hidden icon">
+                <p><img src="image/icon/adress.png">11 Thái Thuận, Phường An Phú, TP Thủ Đức, HCM</p>
+                <p><img src="image/icon/Email.png"><a href="mailto:govarava@gmail.com">abc@gmail.com</a></p>
+                <p><img src="image/icon/tel.png">019239342349</p>
+            </div>          
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1699868123796!2d106.7359752152934!3d10.798289461741357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527d7b333e975%3A0xbbd470689f6b24f2!2zMTEgVGjDoWkgVGh14bqtbiwgVGjhuqNvIMSQaeG7gW4sIFF14bqtbiAyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1656605433357!5m2!1svi!2s" 
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="contact-phone">
+            <img src="image/icon/telcontact.png">
+        </div>
+        <div class="section section-footer">
+            <div class="footer-left">
+                <img src="image/sichainok.png">
+            </div>
+            <div class="footer-right">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>Địa chỉ: 11 Thái Thuận, Phường An Phú, TP Thủ Đức, HCM</p>
+                <p>Email: abc@gmail.com</p>
+                <p>Điện thoại: 019239342349</p>
+            </div>
+            <p class="copyright">@Copyright by SiChain 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
